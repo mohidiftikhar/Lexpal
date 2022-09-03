@@ -1,0 +1,20 @@
+.social-links{
+    @extend %listreset;
+    position: relative;
+    display: flex;
+    gap: 20px;
+
+    li{
+        display: inline-block;
+        vertical-align: top;
+        letter-spacing: 0;
+    }
+
+    a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: $primary-color1;
+        font-size: 22px;
+    }
+}
