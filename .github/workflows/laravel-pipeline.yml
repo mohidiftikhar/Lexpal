@@ -15,4 +15,5 @@ jobs:
     - uses: actions/checkout@v3
     - name: Coping Env file
     - run: cd /home && sudo cp .env /home/actions-runner/_work/Lexpal/Lexpal
+    
 
